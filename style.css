@@ -1,0 +1,184 @@
+/* css applied to entire page
+font from billie's website:
+font-family: 'Tinos', serif; */
+
+* {
+  text-align: center;
+  font-family: 'Noto Sans Mono', monospace;
+}
+
+/* get rid of slight border and change text to white */
+body {
+  margin: 0;
+  padding: 0;
+  color: white;
+}
+
+img {
+  transition: 1s ease;
+}
+
+img:hover{
+  -webkit-transform: scale(0.8);
+  -ms-transform: scale(0.8);
+  -webkit-filter: blur(5px);
+  transform: scale(0.8);
+}
+
+.header audio {
+  display: none;
+}
+
+.header {
+  flex-direction: column;
+  background-image: url("images/billie-7.gif");
+  background-position: center;
+  opacity: 0.65;
+}
+
+.name {
+  font-size: 80px;
+}
+
+.name h1 {
+  margin: 0;
+  padding: 0;
+  font-family: 'Archivo Black', sans-serif;
+}
+
+.bio {
+  margin: 0% 25% 0% 25%;
+}
+
+.bio p {
+  font-size: 20px;
+}
+
+/* for margin and padding: top, right, bottom, left */
+
+.eras {
+  display: flex;
+  flex-direction: column;
+}
+
+/* remove to have info under year */
+.content {
+  display: flex;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex: 50%;
+}
+
+.year h1 {
+  font-size: 50px;
+}
+
+.year {
+  display: flex;
+  flex: 50%;
+  justify-content: center;
+  align-items: center;
+  padding: 10% 10% 10% 10%;
+  background-position: center;
+}
+
+.text {
+  padding: 0% 10% 0% 10%;
+}
+
+.img_sec {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.img_sec img {
+  max-height: 30vh;
+  width: auto;
+  height: auto;
+}
+
+.tt {
+  display: flex;
+  justify-content: center;
+  flex: 50%;
+  height: 101vh;
+  opacity: 0.75;
+}
+
+.header, .yr  {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  height: 101vh;
+  width: auto;
+}
+
+.img_sec {
+  display: flex;
+  flex-direction: row;
+}
+
+.footer {
+  background-color: lightgray;
+}
+
+.links {
+  padding: 5% 0% 5% 0%;
+}
+
+.links a {
+  color: gray;
+}
+
+.links a:visited {
+  color: white;
+}
+
+#year16 {
+  background-image: url("images/billie-1.gif");
+}
+
+#year17 {
+  background-image: url("images/billie-2.gif");
+}
+
+#year18 {
+  background-image: url("images/billie-3.gif");
+}
+
+#year19 {
+  background-image: url("images/billie-4.gif");
+}
+
+#year21 {
+  background-image: url("images/billie-6.gif");
+}
+
+#yr16 {
+  background-color: #f3bb01;
+}
+
+#yr17 {
+  background-color: #e01f34;
+}
+
+#yr18 {
+  background-color: #1d3152;
+}
+
+#yr19 {
+  background-color: #001d06;
+}
+
+#yr21 {
+  background-color: #c69c78;
+}
